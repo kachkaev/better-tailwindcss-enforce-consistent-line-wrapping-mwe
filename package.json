@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "scripts": {
+    "lint": "npm run lint:eslint && npm run lint:prettier",
+    "lint:eslint": "eslint .",
+    "lint:prettier": "prettier --write .",
+    "fix": "npm run fix:eslint && npm run fix:prettier",
+    "fix:eslint": "eslint --fix .",
+    "fix:prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.1",
+    "@stylistic/eslint-plugin": "5.6.1",
+    "eslint-plugin-better-tailwindcss": "4.0.0-beta.4",
+    "eslint-plugin-react": "7.37.5",
+    "eslint": "9.39.1",
+    "prettier": "3.6.2"
+  },
+  "packageManager": "pnpm@10.23.0"
+}
